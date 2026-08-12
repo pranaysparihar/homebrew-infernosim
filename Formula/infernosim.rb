@@ -13,7 +13,7 @@ class Infernosim < Formula
   def install
     ldflags = "-s -w -X main.version=#{version} -X main.commit=v#{version} " \
               "-X main.versionBy=homebrew -X infernosim/pkg/reporting.SemanticVersion=#{version}"
-    system "go", "build", *std_go_args(ldflags:), "./cmd/agent"
+    system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/agent"
   end
 
   test do

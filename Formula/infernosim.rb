@@ -4,8 +4,8 @@
 class Infernosim < Formula
   desc "Deterministic incident replay for backend systems"
   homepage "https://github.com/pranaysparihar/InfernoSIM"
-  url "https://github.com/pranaysparihar/InfernoSIM/archive/refs/tags/v4.2.0.tar.gz"
-  sha256 "21d4e76e1371a9e4b17fbcb9865a2db943470e418b9fca5fcd12eb99215b6f8b"
+  url "https://github.com/pranaysparihar/InfernoSIM/archive/refs/tags/v4.2.1.tar.gz"
+  sha256 "137ffc8a0b7cc12d73a723aacc2dfc38fb38a5bea51063be5b003f06c01b0a68"
   license "MIT"
 
   depends_on "go" => :build
